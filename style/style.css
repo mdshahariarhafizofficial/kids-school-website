@@ -100,12 +100,12 @@ header nav .nav-btn #contact-btn:hover{
 header nav .nav-btn #bars-btn{
     background: none;
     border: none;
-    font-size: 1.87rem;
+    font-size: 2.5rem;
     color: #000;
     display: none;
 }
 header nav .nav-btn #bars-btn:hover{
-    color: #8700FF;
+    color: #FEA301;
 }
 
 
@@ -113,6 +113,9 @@ header nav .nav-btn #bars-btn:hover{
 .hero-section .hero-container{
     align-items: center;
     justify-content: space-between;
+}
+.hero-section .hero-container .hero-left .hero-des{
+    max-width: 640px;
 }
 .hero-section .hero-container .hero-left .hero-des h1{
     font-size: 3.5rem;
@@ -126,13 +129,13 @@ header nav .nav-btn #bars-btn:hover{
     margin: 24px 0;
 }
 .hero-section .hero-container .hero-left #hero-btn{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: white;
     background: #000000;
     border: none;
     border-radius: 12px;
-    padding: 10px 48px;
+    padding: 15px 48px;
 }
 .hero-section .hero-container .hero-right img{
     width: 100%;
@@ -146,3 +149,60 @@ header nav .nav-btn #bars-btn:hover{
 
 
 /*//////////////// Footer Section style ////////////*/
+
+
+/* //////////// Media Query Responsive /////////////*/
+.hide{
+    display: none;
+}
+/* For Smallest Device */
+@media screen and (max-width: 576px) {
+    header nav{
+        padding: 20px;
+        border: 1px solid #FEA301;
+    }
+    header nav .nav-menu{
+        display: none;
+    }
+    header nav .nav-logo h2{
+        display: none;
+    }
+    header nav .nav-btn #contact-btn{
+        display: none;
+    }
+    header nav .nav-btn #bars-btn{
+        display: block;
+    }
+    .hero-section{
+        padding: 20px;
+        text-align: center;
+    }
+    .hero-section .hero-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+/* For Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header nav{
+        padding: 30px;
+        border: 1px solid #FEA301;
+    }
+    header nav .nav-menu{
+        display: none;
+    }
+    header nav .nav-btn #contact-btn{
+        display: none;
+    }
+    header nav .nav-btn #bars-btn{
+        display: block;
+    }
+    .hero-section{
+        padding: 20px;
+        text-align: center;
+    }
+    .hero-section .hero-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
