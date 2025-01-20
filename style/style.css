@@ -53,10 +53,90 @@ body{
 /*///////////////// header style /////////////////*/
 
 /*////// Nav style /////*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header nav .nav-logo{
+    justify-content: center;
+    align-items: center;
+}
+header nav .nav-logo img{
+    width: 62px;
+}
+header nav .nav-logo h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+header nav .nav-menu ul{
+    list-style: none;
+    gap: 32px;
+}
+header nav .nav-menu a{
+    text-decoration: none;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+header nav .nav-menu a:hover{
+    color: #000;
+}
+header nav .nav-btn #contact-btn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background: orange;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+}
+header nav .nav-btn #contact-btn:hover{
+    background: #8700FF;
+    transition: 0.5s;
+}
+header nav .nav-btn #bars-btn{
+    background: none;
+    border: none;
+    font-size: 1.87rem;
+    color: #000;
+    display: none;
+}
+header nav .nav-btn #bars-btn:hover{
+    color: #8700FF;
+}
 
 
 /*/////Hero Section style //////*/
-
+.hero-section .hero-container{
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section .hero-container .hero-left .hero-des h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 61px;
+}
+.hero-section .hero-container .hero-left .hero-des p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: auto;
+    margin: 24px 0;
+}
+.hero-section .hero-container .hero-left #hero-btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #000000;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 48px;
+}
+.hero-section .hero-container .hero-right img{
+    width: 100%;
+}
 
 /*//////////////// Curriculum Section style ////////////*/
 
