@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+/* Common css style */
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.color-1{
+    color: #01ACFD;
+}
+.color-2{
+    color: #FEA301;
+}
+.color-3{
+    color: #05D4DF;
+}
+.color-4{
+    color: #5D58EF;
+}
+.color-5{
+    color: #8700FF;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.sec-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 57.5;
+    color: #000000;
+}
+.pra-style{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.3;
+    color: rgba(128, 128, 128, 1);
+}
+
+/*///////////////// header style /////////////////*/
+
+/*////// Nav style /////*/
+
+
+/*/////Hero Section style //////*/
+
+
+/*//////////////// Curriculum Section style ////////////*/
+
+
+
+/*//////////////// Stories Section style ////////////*/
+
+
+/*//////////////// Footer Section style ////////////*/
