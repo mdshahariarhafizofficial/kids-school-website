@@ -57,6 +57,14 @@ body{
 }
 
 /*///////////////// header style /////////////////*/
+header marquee{
+    background: #01ACFD;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
 
 /*////// Nav style /////*/
 header nav{
@@ -410,6 +418,9 @@ footer .footer-container .footer-right ul{
 
 /*///////////////// For Smallest Device //////////////////////*/
 @media screen and (max-width: 576px) {
+    header marquee{
+        display: none;
+    }
     header nav{
         padding: 20px;
         border: 1px solid #FEA301;
