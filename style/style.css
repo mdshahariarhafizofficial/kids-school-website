@@ -8,6 +8,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 body{
     font-family: "Quicksand", serif;
 }
@@ -40,7 +46,7 @@ body{
 .sec-heading{
     font-size: 3.5rem;
     font-weight: bold;
-    line-height: 57.5;
+    line-height: 57.5px;
     color: #000000;
 }
 .pra-style{
@@ -137,13 +143,91 @@ header nav .nav-btn #bars-btn:hover{
     border-radius: 12px;
     padding: 15px 48px;
 }
+.hero-section .hero-container .hero-left #hero-btn:hover{
+    background: #8700FF;
+    transition: 0.5s;
+}
 .hero-section .hero-container .hero-right img{
     width: 100%;
 }
 
 /*//////////////// Curriculum Section style ////////////*/
-
-
+.curriculum-section{
+    padding: 60px 0;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.curriculum-section .curriculum-container{
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 29px;
+}
+.curriculum-section .curriculum-container .curriculum-card{
+    max-width: 368px;
+    padding: 52px 40px;
+    border-radius: 18.86px;
+}
+.curriculum-section .curriculum-container #card-1{
+    box-shadow: 0 0 0.3px 1.94px rgba(222, 245, 255, 1);
+    background-image: linear-gradient(180deg, rgba(222, 245, 255, 1), rgb(255, 255, 255));
+}
+.curriculum-section .curriculum-container #card-2{
+    box-shadow: 0 0 0.3px 1.94px rgba(255, 244, 220, 1);
+    background-image: linear-gradient(180deg, rgba(255, 244, 220, 1), rgb(255, 255, 255));
+}
+.curriculum-section .curriculum-container #card-3{
+    box-shadow: 0 0 0.3px 1.94px rgba(242, 232, 255, 1);
+    background-image: linear-gradient(180deg, rgba(242, 232, 255, 1), rgb(255, 255, 255));
+}
+.curriculum-section .curriculum-container .curriculum-card img{
+    width: 142px;
+}
+.curriculum-section .curriculum-container .curriculum-card h3{
+   font-size: 1.53rem;
+   font-weight: bold;
+   line-height: 30.7px;
+   color: #202020;
+   margin: 33px 0; 
+}
+.curriculum-section .curriculum-container .curriculum-card p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    color: #808080;
+    font-family: "Raleway", serif;
+    margin-bottom: 33px;
+}
+.curriculum-section .curriculum-container .curriculum-card button{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.curriculum-section .curriculum-container .curriculum-card button i{
+    margin-left: 10px;
+}
+.curriculum-section .curriculum-container .curriculum-card button:hover{
+    color: #000000;
+    transition: 0.5s;
+}
+.curriculum-section .arrow-icon-sec button{
+    width: 60px;
+    height: 60px;
+    background: #FEA301;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.curriculum-section .arrow-icon-sec button:hover{
+    background: #8700FF;
+    transition: 0.5s;
+}
 
 /*//////////////// Stories Section style ////////////*/
 
