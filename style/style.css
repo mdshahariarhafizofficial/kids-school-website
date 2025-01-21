@@ -466,6 +466,11 @@ footer .footer-container .footer-right ul{
     .stories-section .stories-container .stories-right .stories-item{
         margin: 0 auto;
     }
+    .footer-container{
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 30px;
+    }
 
 }
 
@@ -515,6 +520,11 @@ footer .footer-container .footer-right ul{
     .stories-section .stories-container .stories-right .stories-item{
         width: 350px;
         height: 350px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+        padding: 30px;
+        gap: 20px;
     }
 
 }
