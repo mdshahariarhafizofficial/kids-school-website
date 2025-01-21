@@ -360,7 +360,8 @@ header nav .nav-btn #bars-btn:hover{
 .hide{
     display: none;
 }
-/* For Smallest Device */
+
+/*///////////////// For Smallest Device //////////////////////*/
 @media screen and (max-width: 576px) {
     header nav{
         padding: 20px;
@@ -401,14 +402,28 @@ header nav .nav-btn #bars-btn:hover{
     .stories-container .stories-left{
         display: none;
     }
+    .stories-section .stories-container .stories-right .stories-item{
+        width: 100%;
+        height: 100%;
+    }
+    .stories-section .stories-container .stories-right .stories-item .right-stories-img .Stories-date{
+        left: 10px;
+    }
+    .stories-section .stories-container .stories-right .stories-item .stories-text{
+        padding: 20px 10px 20px 20px;
+    }
     .stories-section .stories-container .stories-right{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
     .stories-section .stories-container .stories-right .stories-item{
         margin: 0 auto;
     }
+
 }
-/* For Medium Device */
+
+
+/*/////////////////// For Medium Device //////////////*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
     header nav{
         padding: 30px;
