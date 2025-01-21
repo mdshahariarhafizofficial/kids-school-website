@@ -230,8 +230,129 @@ header nav .nav-btn #bars-btn:hover{
 }
 
 /*//////////////// Stories Section style ////////////*/
+.stories-section{
+    padding: 60px 0;
+    background-image: url(../assets/bg.png), linear-gradient(white, rgb(250, 230, 194));
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+    background-position: 225px 0;
+}
+.stories-section .stories-container{
+    margin-top: 80px;
+    justify-content: space-between;
+    gap: 18px;
+}
+.stories-section .stories-container .stories-left{
+    border-radius: 16px;
+    background-color: white;
+    border-radius: 16px;
+}
+.stories-container .stories-left .stories-img{
+    position: relative;
+    margin-bottom: 40px;
+}
+.stories-section .stories-container .stories-left .stories-img img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.stories-section .stories-container .stories-left .Stories-date{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    font-family: "Raleway", serif;
+    background: #3CD8E8;
+    width: 175px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    bottom: -18px;
+    left: 38px;
+}
+.stories-section .stories-container .stories-left .stories-text{
+    padding: 0 69px 0 39px;
+}
+.stories-section .stories-container .stories-left .stories-text h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 48px;
+}
+.stories-section .stories-container .stories-left .stories-text p{
+    font-size: 1rem;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #666666;
+}
+.stories-section .stories-container .stories-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.stories-section .stories-container .stories-right .stories-item{
+    width: 290px;
+    height: 301px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.stories-section .stories-container .stories-right .stories-item .right-stories-img{
+    position: relative;
+    margin-bottom: 40px;
+}
+.stories-section .stories-container .stories-right .stories-item .right-stories-img .Stories-date{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    font-family: "Raleway", serif;
+    background: #95B226;
+    width: 175px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    bottom: -18px;
+    left: 38px;
+}
+.stories-section .stories-container .stories-right .stories-item .right-stories-img > #stories-item-2-date{
+    background: #5D58F0;
+}
+.stories-section .stories-container .stories-right .stories-item .right-stories-img img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
 
-
+.stories-section .stories-container .stories-right .stories-item .stories-text h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: 28.8px;
+}
+.stories-section .stories-container .stories-right .stories-item .stories-text{
+    padding: 0 69px 0 39px;
+}
+.stories-section .container .stories-btn{
+    margin-top: 80px;
+}
+.stories-section .container .stories-btn button{
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: #000;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border: none;
+}
+.stories-section .container .stories-btn button:hover{
+    background: #8700FF;
+    transition: 0.5s;
+}
 /*//////////////// Footer Section style ////////////*/
 
 
@@ -274,6 +395,18 @@ header nav .nav-btn #bars-btn:hover{
     .curriculum-section .arrow-icon-sec{
         display: none;
     }
+    .stories-section .stories-container{
+        flex-direction: column;
+    }
+    .stories-container .stories-left{
+        display: none;
+    }
+    .stories-section .stories-container .stories-right{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .stories-section .stories-container .stories-right .stories-item{
+        margin: 0 auto;
+    }
 }
 /* For Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -304,4 +437,22 @@ header nav .nav-btn #bars-btn:hover{
     .curriculum-section .curriculum-container .curriculum-card{
         margin: 0 auto;
     }
+    .stories-section .stories-container{
+        flex-direction: column;
+    }
+    .stories-section .stories-left{
+        margin: 0 50px;
+        margin-bottom: 20px;
+    }
+    .stories-section .stories-container .stories-right{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-section .stories-container .stories-right .stories-item{
+        margin: 0 auto;
+    }
+    .stories-section .stories-container .stories-right .stories-item{
+        width: 350px;
+        height: 350px;
+    }
+
 }
