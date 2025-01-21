@@ -44,7 +44,7 @@ body{
     text-align: center;
 }
 .sec-heading{
-    font-size: 3.5rem;
+    font-size: 2.87rem;
     font-weight: bold;
     line-height: 57.5px;
     color: #000000;
@@ -265,6 +265,15 @@ header nav .nav-btn #bars-btn:hover{
         flex-direction: column-reverse;
         gap: 20px;
     }
+    .curriculum-section .curriculum-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .curriculum-section .curriculum-container .curriculum-card{
+        margin: 0 auto;
+    }
+    .curriculum-section .arrow-icon-sec{
+        display: none;
+    }
 }
 /* For Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -288,5 +297,11 @@ header nav .nav-btn #bars-btn:hover{
     .hero-section .hero-container{
         flex-direction: column-reverse;
         gap: 20px;
+    }
+    .curriculum-section .curriculum-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .curriculum-section .curriculum-container .curriculum-card{
+        margin: 0 auto;
     }
 }
