@@ -354,7 +354,54 @@ header nav .nav-btn #bars-btn:hover{
     transition: 0.5s;
 }
 /*//////////////// Footer Section style ////////////*/
-
+footer{
+    padding: 123px 0 174px 0;
+    background: #01ACFD;
+}
+footer .footer-container{
+    justify-content: space-between;
+}
+footer .footer-container .footer-left p{
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: auto;
+    color: white;
+    margin-top: 35px;
+    width: 400px;
+}
+footer .footer-container .footer-left .footer-logo{
+    align-items: center;
+    font-size: 1.25rem;
+    color: white;
+}
+footer .footer-container .footer-mid h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+footer .footer-container .footer-mid ul{
+    list-style: none;
+}
+footer .footer-container .footer-mid ul li a{
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+footer .footer-container .footer-mid li{
+    margin-bottom: 20px;
+}
+footer .footer-container .footer-right h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+footer .footer-container .footer-right ul{
+    list-style: none;
+    gap: 10px;
+}
 
 /* //////////// Media Query Responsive /////////////*/
 .hide{
