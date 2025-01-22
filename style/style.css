@@ -455,6 +455,7 @@ footer .footer-container .footer-right ul{
     }
     .curriculum-section .curriculum-container{
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
     }
     .curriculum-section .curriculum-container .curriculum-card{
         margin: 0 auto;
