@@ -18,6 +18,9 @@ body{
     font-family: "Quicksand", serif;
 }
 /* Common css style */
+body button{
+    cursor: pointer;
+}
 .container{
     max-width: 1160px;
     margin: 0 auto;
@@ -64,6 +67,10 @@ header marquee{
     padding: 20px 0;
     display: flex;
     align-items: center;
+}
+header marquee i{
+    color: #000000;
+    font-size: 1.25rem;
 }
 
 /*////// Nav style /////*/
@@ -240,7 +247,7 @@ header nav .nav-btn #bars-btn:hover{
 /*//////////////// Stories Section style ////////////*/
 .stories-section{
     padding: 60px 0;
-    background-image: url(../assets/bg.png), linear-gradient(white, rgb(250, 230, 194));
+    background-image: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     /* background-repeat: no-repeat; */
     background-size: auto;
     background-position: 225px 0;
