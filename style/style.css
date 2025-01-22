@@ -425,7 +425,8 @@ footer .footer-container .footer-right ul{
 }
 
 /*///////////////// For Smallest Device //////////////////////*/
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 577px) {
     header marquee{
         display: none;
     }
@@ -500,7 +501,7 @@ footer .footer-container .footer-right ul{
 
 
 /*/////////////////// For Medium Device //////////////*/
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
     .container{
         width: auto;
     }
@@ -557,4 +558,13 @@ footer .footer-container .footer-right ul{
         gap: 20px;
     }
 
+}
+
+/*///// For Width 400px //////*/
+@media screen and (max-width: 400px) {
+    .stories-section .stories-container .stories-right{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0 20px;
+    }
 }
