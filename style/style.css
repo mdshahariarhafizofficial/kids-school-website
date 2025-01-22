@@ -164,8 +164,8 @@ header nav .nav-btn #bars-btn:hover{
     padding: 60px 0;
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
+    background-size: 100% 100%;
+    background-position: center center;
 }
 .curriculum-section .curriculum-container{
     margin: 80px 0;
@@ -247,7 +247,6 @@ header nav .nav-btn #bars-btn:hover{
 }
 .stories-section .stories-container{
     margin-top: 80px;
-    justify-content: space-between;
     gap: 18px;
 }
 .stories-section .stories-container .stories-left{
@@ -375,7 +374,7 @@ footer .footer-container .footer-left p{
     line-height: auto;
     color: white;
     margin-top: 35px;
-    width: 400px;
+    max-width: 400px;
 }
 footer .footer-container .footer-left .footer-logo{
     align-items: center;
@@ -462,17 +461,18 @@ footer .footer-container .footer-right ul{
     }
     .stories-section .stories-container .stories-right .stories-item{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .stories-section .stories-container .stories-right .stories-item .right-stories-img .Stories-date{
         left: 10px;
     }
     .stories-section .stories-container .stories-right .stories-item .stories-text{
-        padding: 20px 10px 20px 20px;
+        padding: 20px 10px 20px 10px;
     }
     .stories-section .stories-container .stories-right{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        padding: 0 16px;
     }
     .stories-section .stories-container .stories-right .stories-item{
         margin: 0 auto;
@@ -488,6 +488,9 @@ footer .footer-container .footer-right ul{
 
 /*/////////////////// For Medium Device //////////////*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    .container{
+        width: auto;
+    }
     header nav{
         padding: 30px;
         border: 1px solid #FEA301;
@@ -521,6 +524,9 @@ footer .footer-container .footer-right ul{
     .stories-section .stories-left{
         margin: 0 50px;
         margin-bottom: 20px;
+    }
+    .stories-left .stories-text p{
+        margin-bottom: 40px;
     }
     .stories-section .stories-container .stories-right{
         grid-template-columns: repeat(2, 1fr);
