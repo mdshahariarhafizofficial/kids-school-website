@@ -420,9 +420,7 @@ footer .footer-container .footer-right ul{
 }
 
 /* //////////// Media Query Responsive /////////////*/
-.hide{
-    display: none;
-}
+
 
 /*///////////////// For Smallest Device //////////////////////*/
 
@@ -560,7 +558,7 @@ footer .footer-container .footer-right ul{
 
 }
 
-/*///// For Width 400px //////*/
+/*///// For Width 400px Device //////*/
 @media screen and (max-width: 400px) {
     .stories-section .stories-container .stories-right{
         grid-template-columns: repeat(1, 1fr);
