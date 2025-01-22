@@ -334,7 +334,9 @@ header nav .nav-btn #bars-btn:hover{
     width: 100%;
     border-radius: 16px 16px 0 0;
 }
-
+.stories-section .stories-container .stories-right #stories-item-5, #stories-item-6{
+    display: none;
+}
 .stories-section .stories-container .stories-right .stories-item .stories-text h3{
     font-size: 1rem;
     font-weight: bold;
@@ -458,6 +460,9 @@ footer .footer-container .footer-right ul{
     }
     .stories-container .stories-left{
         display: none;
+    }
+    .stories-section .stories-container .stories-right #stories-item-5, #stories-item-6{
+        display: block;
     }
     .stories-section .stories-container .stories-right .stories-item{
         width: 100%;
